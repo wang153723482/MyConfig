@@ -21,10 +21,10 @@
 
 
 
-1. jmeter_logs.jsp 放到 $TOMCAT_HOME/webapps/ROOT 下，修改文件内的 `resultPath`,与上文的 `RESULT_PATH` 保持一致，启动tomcat
+1. `jmeter_logs.jsp` 放到 $TOMCAT_HOME/webapps/ROOT 下，修改文件内的 `resultPath`,与上文的 `RESULT_PATH` 保持一致，启动tomcat
 
-2. jmeter_auto.sh 放到任意目录，修改文件内的 `JMETER_HOME`,`WORKSPACE`,`TOMCAT_HOME`,`RESULT_PATH`。给 `jmeter.auto.sh` 增加执行权限
+2. `jmeter_auto.sh` 放到任意目录，修改文件内的 `JMETER_HOME`,`WORKSPACE`,`TOMCAT_HOME`,`RESULT_PATH`。给 `jmeter.auto.sh` 增加执行权限
 
-3. 执行 jmeter_auto.sh
+3. 执行 `jmeter_auto.sh`
 
 4. 访问jmeter_logs.jsp，http://ip:8080/jmeter_logs.jsp 即可。
