@@ -7,8 +7,10 @@
 * tomcat7+（apache、nginx...）
 
 
+#### 
+
 1. 遍历jmx目录，通过jmeter -n执行每一个jmx脚本
 
 2. 执行jmx以后，通过jmeter -o生成html报告
 
-3. 配合tomcat或其他web服务器，即时查看报告
+3. 生成的html直接存放在tomcat（或其他web服务器）的部署目录下，即时查看报告
