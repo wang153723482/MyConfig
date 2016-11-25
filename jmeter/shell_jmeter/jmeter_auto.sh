@@ -14,7 +14,7 @@ TOMCAT_HOME=/home/testing/soft/tomcat8
 RESULT_PATH=/results
 
 # set local variable
-__current_time=`date +%Y%M%d%H%m%S`
+__current_time=`date +%Y%m%d%H%M%S`
 # jmx的存放路径
 __path_jmx=${WORKSPACE}/jmx
 # jtl的存放路径
